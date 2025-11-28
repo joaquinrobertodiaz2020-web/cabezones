@@ -1,0 +1,35 @@
+/* ----------------------
+   JUEGO
+---------------------- */
+.game {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: #00ccff;
+}
+
+/* Piso */
+.floor {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  background: green;
+}
+
+/* Player */
+.player {
+  position: absolute;
+  border: 2px solid white;
+  background: blue;
+}
+
+/* Pelota */
+.ball {
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+  border: 3px solid black;
+  z-index: 10;
+}
