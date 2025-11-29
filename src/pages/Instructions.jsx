@@ -1,10 +1,21 @@
-export default function Instructions() {
+import "../styles/instructions.css";
+
+export default function Instructions({ onBack }) {
   return (
-    <div style={{ padding: 40 }}>
-      <h1>Instrucciones</h1>
-      <p>• Player 1: flechas</p>
-      <p>• Player 2: W A D</p>
-      <p>• El balón rebota y se patea como en DVADI</p>
+    <div className="instructions-screen">
+      <button className="back-button" onClick={onBack}>← Volver</button>
+
+      <div className="instructions-box">
+        <h1 className="instructions-title">Instrucciones</h1>
+
+        <ul className="instructions-list">
+          <li><strong>Player 1:</strong> Flechas ← ↑ →</li>
+          <li><strong>Player 2:</strong> Teclas W • A • D</li>
+          <li>El balón rebota dinámicamente</li>
+          <li>Saltá para ganar ventaja</li>
+          <li>Empujá la pelota para marcar gol</li>
+        </ul>
+      </div>
     </div>
   );
 }

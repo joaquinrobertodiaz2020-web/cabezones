@@ -15,8 +15,13 @@ export default function Menu() {
         <button className="play-btn">Jugar</button>
       </Link>
 
-      <Link to="/instrucciones">Instrucciones</Link>
-      <Link to="/creditos">Créditos</Link>
+      <Link to="/instrucciones">
+        <button className="instru-btn">Instrucciones</button>
+      </Link>
+
+      <Link to="/creditos">
+        <button className="cred-btn">Creditos</button>
+      </Link>
     </div>
   );
 }

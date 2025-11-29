@@ -12,7 +12,14 @@ function App() {
 
         {/* Estáticas */}
         <Route path="/" element={<Menu />} />
-        
+        <Route path="/instrucciones" element={<Instructions />} />
+        <Route path="/creditos" element={<Credits />} />
+
+        {/* Dinámica */}
+        <Route path="/match/:id" element={<Match />} />
+
+        {/* Juego principal */}
+        <Route path="/jugar" element={<Game />} />
 
       </Routes>
     </BrowserRouter>

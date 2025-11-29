@@ -1,6 +1,4 @@
-/* ----------------------
-   PANTALLA DE INICIO
----------------------- */
+/* PANTALLA DE INICIO*/
 .menu {
   width: 100vw;
   height: 100vh;
@@ -21,7 +19,7 @@
   margin-bottom: 60px;
 }
 
-/* Botón */
+/* Botón play */
 .play-btn {
   background: black;
   border: 3px solid white;
@@ -38,9 +36,41 @@
   background: red;
 }
 
-/* ----------------------
-   NUBES
----------------------- */
+/* Botón instructions */
+.instru-btn {
+  background: black;
+  border: 3px solid white;
+  color: white;
+  font-size: 1.8rem;
+  padding: 10px 30px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.instru-btn:hover {
+  transform: scale(1.1);
+  background: red;
+}
+
+/* Botón credits */
+.cred-btn {
+  background: black;
+  border: 3px solid white;
+  color: white;
+  font-size: 1.8rem;
+  padding: 10px 30px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.cred-btn:hover {
+  transform: scale(1.1);
+  background: red;
+}
+
+/* NUBES*/
 .cloud {
   position: absolute;
   width: 90px;
